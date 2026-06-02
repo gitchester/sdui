@@ -1,5 +1,224 @@
 {
-  "minVersion": "1.2.0",
-  "forceUpdate": false,
-  "featureA": true
+  "type": "box",
+  "width": "fill_width",
+  "height": "wrap_content",
+  "style": {
+    "background_color": "#FFFFFF",
+    "padding": 0,
+    "corner_radius": 16
+  },
+  "children": [
+    {
+      "type": "column",
+      "width": "fill_width",
+      "height": "wrap_content",
+      "style": {
+        "padding-left": 16,
+        "padding-right": 16,
+        "padding-top": 16,
+        "padding-bottom": 16
+      },
+      "children": [
+        {
+          "type": "box",
+          "width": "fill_width",
+          "height": "wrap_content",
+          "style": {
+            "padding": 0,
+            "vertical-align": "center"
+          },
+          "children": [
+            {
+              "type": "text",
+              "width": "fill_width",
+              "height": "wrap_content",
+              "text": "Tổng quan tháng 12",
+              "style": {
+                "theme_color": "#2A2C2D",
+                "text_size": 16,
+                "text_weight": "bold"
+              }
+            },
+            {
+              "type": "text",
+              "width": "wrap_content",
+              "height": "wrap_content",
+              "text": "›",
+              "style": {
+                "background_color": "#F72E8B",
+                "theme_color": "#FFFFFF",
+                "corner_radius": 20,
+                "text_weight": "bold",
+                "padding-left": 9,
+                "padding-right": 9,
+                "padding-top": 4,
+                "padding-bottom": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "width": "fill_width",
+          "height": "wrap_content",
+          "style": {
+            "padding": 0,
+            "margin-top": 16
+          },
+          "children": [
+            {
+              "type": "column",
+              "width": "fill_width",
+              "height": "wrap_content",
+              "style": {
+                "background_color": "#FFFFFF",
+                "border_color": "#EEEEEE",
+                "border_width": 1,
+                "padding-left": 12,
+                "padding-right": 12,
+                "padding-top": 12,
+                "padding-bottom": 12
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "width": "fill_width",
+                  "height": "wrap_content",
+                  "text": "Tổng chi",
+                  "style": {
+                    "theme_color": "#747474"
+                  }
+                },
+                {
+                  "type": "box",
+                  "width": "fill_width",
+                  "height": "wrap_content",
+                  "style": {
+                    "padding": 0,
+                    "margin-top": 6,
+                    "vertical-align": "center"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "width": "fill_width",
+                      "height": "wrap_content",
+                      "text": "4.090.000đ",
+                      "style": {
+                        "theme_color": "#2A2C2D",
+                        "text_size": 16,
+                        "text_weight": "bold"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "width": "wrap_content",
+                      "height": "wrap_content",
+                      "text": "›",
+                      "style": {
+                        "theme_color": "#BDBDBD"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "column",
+              "width": "fill_width",
+              "height": "wrap_content",
+              "style": {
+                "background_color": "#FFFFFF",
+                "border_color": "#EEEEEE",
+                "border_width": 1,
+                "margin-left": 12,
+                "padding-left": 12,
+                "padding-right": 12,
+                "padding-top": 12,
+                "padding-bottom": 12
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "width": "fill_width",
+                  "height": "wrap_content",
+                  "text": "So với cùng kỳ",
+                  "style": {
+                    "theme_color": "#747474"
+                  }
+                },
+                {
+                  "type": "box",
+                  "width": "fill_width",
+                  "height": "wrap_content",
+                  "style": {
+                    "padding": 0,
+                    "margin-top": 6,
+                    "vertical-align": "center"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "width": "fill_width",
+                      "height": "wrap_content",
+                      "text": "↑ 869.599đ",
+                      "style": {
+                        "theme_color": "#FF5436",
+                        "text_size": 16,
+                        "text_weight": "bold"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "width": "wrap_content",
+                      "height": "wrap_content",
+                      "text": "›",
+                      "style": {
+                        "theme_color": "#BDBDBD"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "width": "fill_width",
+          "height": "wrap_content",
+          "style": {
+            "background_color": "#FFF2F9",
+            "margin-top": 12,
+            "padding-left": 14,
+            "padding-right": 14,
+            "padding-top": 14,
+            "padding-bottom": 14,
+            "vertical-align": "center"
+          },
+          "children": [
+            {
+              "type": "text",
+              "width": "fill_width",
+              "height": "wrap_content",
+              "text": "Bạn muốn quản lý tiền tốt hơn?",
+              "style": {
+                "theme_color": "#787476"
+              }
+            },
+            {
+              "type": "text",
+              "width": "wrap_content",
+              "height": "wrap_content",
+              "text": "Đặt ngân sách",
+              "style": {
+                "theme_color": "#F83A92",
+                "text_weight": "semibold"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
